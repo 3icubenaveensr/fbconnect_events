@@ -1,0 +1,9 @@
+; $Id $
+name= Fbconnect Events
+description = FB Events API integration
+core = 6.x
+package = "Facebook connect"
+php = 5.2
+core = "6.x"
+dependencies[] = fbconnect
+
