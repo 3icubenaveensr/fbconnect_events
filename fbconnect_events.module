@@ -71,7 +71,7 @@ function fbconnect_events_nodeapi(&$node, $op, $arg) {
       global $user;
       // Check that we can create a fbconnect api client object and
       // have an fbeid field on this node
-      if ($fb = facebook_client() && isset($node->field_fbeid)) {
+      if (isset($node->field_fbeid) && $fb = facebook_client()) {
         $fbuid  = fbconnect_get_fbuid();
         $eid = $node->field_fbeid[0]['value'];
         try {
