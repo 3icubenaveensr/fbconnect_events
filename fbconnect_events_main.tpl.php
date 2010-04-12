@@ -28,7 +28,7 @@
   <?php else: ?>
     <h2 class="action"><?php print t('Are you going?'); ?></h2>
     <fb:login-button onlogin="facebook_onlogin_ready();" size="medium" background="dark" length="long"></fb:login-button>
-    <div class="fb_description"><?php print t('Connect with Facebook to find out who\'s going and RSVP!'') ?></div>
+    <div class="fb_description"><?php print t('Connect with Facebook to find out who\'s going and RSVP!') ?></div>
   <?php endif; ?>
 </div>
         
